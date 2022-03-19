@@ -37,7 +37,7 @@
 >
 >  ![](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477074201.jpg)
 >
->   < img src="C:\Users\86151\Desktop\微信图片_20220316190652.jpg" alt="微信图片_20220316190652" style="zoom:50%;" />
+>  ![](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477078914.jpg)
 >
 >   4. 一些运算规则![](C:\Users\86151\Desktop\微信图片_20220316191806.jpg)
 >
