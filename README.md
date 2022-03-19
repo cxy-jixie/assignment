@@ -55,7 +55,7 @@
 >
 >3. 由此加上平移变换，可得到坐标系的齐次变换矩阵![](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477090356.jpg)
 >
->   ![微信图片_20220316194903](C:\Users\86151\Desktop\微信图片_20220316194903.jpg)
+>   ![微信图片_20220316194903](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477093857.jpg)
 >
 >   4.使用matlab时使用“se2"建立齐次变换。
 # mark down 学习 3.15笔记
