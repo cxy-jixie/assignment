@@ -1,4 +1,6 @@
-# assignment# 第一章
+# assignment
+机器人学学习笔记
+# 第一章
 
 ##  1.机器人的定义
 
