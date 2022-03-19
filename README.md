@@ -39,7 +39,7 @@
 >
 >  ![](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477078914.jpg)
 >
->   4. 一些运算规则![](C:\Users\86151\Desktop\微信图片_20220316191806.jpg)
+>   4. 一些运算规则![](https://github.com/cxy-jixie/assignment/blob/3.20/mmexport1647477085104.jpg)
 >
 >      可以看到左上与右下可以相消，消掉后左上保持一致则变换正确
 
