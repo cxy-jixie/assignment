@@ -225,3 +225,5 @@ catkin_make
 # 测试简单的服务器和客户端
 1. 运行Service
 2. 运行Client
+3. 
+![](https://github.com/cxy-jixie/assignment/blob/4.16/Q%245_%25W4AVL9VFF~T_QVIY8K.png)
