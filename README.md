@@ -91,3 +91,4 @@ rosrun rospy_turtorials talker chatter:=/wg/chatter
 效果如下：
 
 ![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/xiaoguo.png)
+！[](https://img-blog.csdnimg.cn/531632868f8c4255a544dfa7758c97a7.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5ZC05oGp6L6-5Lqy5Lyg5byf5a2Q,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
