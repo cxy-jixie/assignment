@@ -62,3 +62,32 @@ $ ROS_PACKAGE_PATH=bad:$ROS_PACKAGE_PATH roswtf
 1. 首页
 2.  package页面
 3. stack页面
+## 有效的命名
+1. 具备如下特点：
+（1）首字符必须是字母，波浪线，或者左斜杠
+（2）后续字符可以是字母或数字，下划线，或者是左斜杠
+2. 命名解析
+
+ （1）基础（base）名称，例如：base。
+
+ （2）全局（global）名称，例如：/global/name。
+
+ （3）相对（relative）名称，例如：relative/name。
+
+ （4）私有（private）名称，例如：~privat/name
+
+3. 全局名称需要列出所有的命名空间，其解析度更高，但不能使用很多的全局名称会影响功能包的可移植性
+4. 相对名称由ROS提供默认的命名空间，不需要带有开头的左斜杠，所以重点是如何确定默认的命名空间
+ROS提供了如下方法：
+>> 1. 通过命令参数设置。调用ros::init()的ROS程序会接收名为_ _ns的命令行参数，可以为程序设置默认的命名空间，赋值方法为 _ _ns:=default-namespace。
+>>2. 在launch文件里设置在该文件里可通过设置ns参数来确定默认命名空间
+>>3. 使用环境变量设置，也可以执行ROS程序在终端中设置默认命名空间的环境变量 
+5. 命名重映射：所有节点内的资源名称都可以在节点启动时进行重映射，作用在于可以支持我们打开多个相同的节点但不会发生命名的冲突
+~~~r
+name:=new_name
+--------------示例（将chatter重映射为/wg/chater)
+rosrun rospy_turtorials talker chatter:=/wg/chatter
+~~~
+效果如下：
+
+![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/xiaoguo.png)
