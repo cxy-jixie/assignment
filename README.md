@@ -14,5 +14,15 @@ $ cd ~/bagfiles
 $ rosbag record -a
 ~~~
 效果如下：
-
+>>
+![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/xiaoguoyi1.png)
+##  2.检查并回放 bag 文件
+### 检查
+~~~r
+rosbag info <your bagfile>
+~~~
+### 回放
+~~~r
+ rosbag play <your bagfile>
+~~~
 
