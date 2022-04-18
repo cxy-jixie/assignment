@@ -25,6 +25,26 @@ rosbag info <your bagfile>
 ~~~r
  rosbag play <your bagfile>
 ~~~
+效果如下：
+~~~ 
+path:        2014-12-10-20-08-34.bag
+version:     2.0
+duration:    1:38s (98s)
+start:       Dec 10 2014 20:08:35.83 (1418270915.83)
+end:         Dec 10 2014 20:10:14.38 (1418271014.38)
+size:        865.0 KB
+messages:    12471
+compression: none [1/1 chunks]
+types:       geometry_msgs/Twist [9f195f881246fdfa2798d1d3eebca84a]
+             rosgraph_msgs/Log   [acffd30cd6b6de30f120938c17c593fb]
+             turtlesim/Color     [353891e354491c51aabe32df673fb446]
+             turtlesim/Pose      [863b248d5016ca62ea2e895ae5265cf9]
+topics:      /rosout                    4 msgs    : rosgraph_msgs/Log   (2 connections)
+             /turtle1/cmd_vel         169 msgs    : geometry_msgs/Twist
+             /turtle1/color_sensor   6149 msgs    : turtlesim/Color
+             /turtle1/pose           6149 msgs    : turtlesim/Pose
+~~~
+
 ## 3. 录制数据子集
 1. 命令中的-O参数告诉rosbag record将数据记录保存到名为subset.bag的文件中，同时后面的话题参数告诉rosbag record只能录制这两个指定的话题
 ~~~ r
@@ -95,4 +115,4 @@ rosrun rospy_turtorials talker chatter:=/wg/chatter
 ## ROS的通信结构
 ![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/yingyong.png)
 ## 关于节点的理解
-
+![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/jiedianlijie.png)
