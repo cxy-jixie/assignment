@@ -116,3 +116,10 @@ rosrun rospy_turtorials talker chatter:=/wg/chatter
 ![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/yingyong.png)
 ## 关于节点的理解
 ![](https://github.com/cxy-jixie/assignment/blob/4.23/%E5%9B%BE%E7%89%87%E3%80%81/jiedianlijie.png)
+# 服务通信机制
+1. 服务是一种带有应答的通信机制，与话题通信相比，减少了Listener与Talker之间的通信
+2. Talker注册：通过端口使用rpc向ROSMaster注册发布者信息，包含所提供的服务名
+3. Listener注册：过程与上面基本一致，包含需要查找的服务名
+4. ROSMaster进行信息匹配
+5. 两者之间建立网络连接
+6. Talker向Listener发布服务应答数据
