@@ -13,7 +13,7 @@ int main(int argc,char* argv[])
   std::vector<double>  initial_position={-1.54,-1.83,-2.28,-0.59,1.60,0.023};
   std::vector<double>  task_frame={0,0,0,0,0,0};
   std::vector<int>     change={0,0,1,0,0,0};
-  std::vector<double>  move1={0,0,-10,10,(3.14/2),0};
+  std::vector<double>  move1={0,10,-10,0,0.2,0};
   std::vector<double>  limits={2,2,1.5,1,1,1};
   rtde_control.moveJ(initial_position);
   int force_type=2;
